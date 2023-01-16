@@ -1,0 +1,23 @@
+version: "3.3"
+
+services:
+  jupyter-gpu:
+    image: tensorflow/tensorflow:2.11.0-gpu-jupyter
+    volumes:
+      - "./:/tf/notebooks"
+    ports:
+     - "127.0.0.1:8888:8888"
+#    pid: "host"
+    deploy:
+      resources:
+        reservations:
+          devices:
+          -  driver: nvidia
+             count: all
+             capabilities: [gpu]
+  jupyter:
+    image: tensorflow/tensorflow:2.11.0-jupyter
+    volumes:
+      - "./:/tf/notebooks"
+    ports:
+     - "127.0.0.1:8889:8888"
