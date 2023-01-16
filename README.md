@@ -24,8 +24,6 @@ Im Ordner [dockprom](./dockprom) befindet sich ein Beispiel, um ein Monitoring m
 
 Die Folien können unter folgendem Link gefunden werden: https://slides.com/jotto/parallele-systeme-nvidia-docker
 
-<iframe src="https://slides.com/jotto/parallele-systeme-nvidia-docker/embed" width="576" height="420" title="Parallele Systeme – Nvidia & Docker" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 ## Getting Started
 
 Hier wird beschrieben, wie man die Beispiele laufen lassen kann.
